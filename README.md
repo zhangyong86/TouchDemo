@@ -5,6 +5,7 @@ Touch事件分发：
 解释：DOWN，MOVE和UP事件都是交给同一对象来处理，完整的touch gesture.
 
 View：dispatchTouchEvent、onTouchEvent
+
 ViewGroup：dispatchTouchEvent、dispatchTouchEvent、onTouchEvent
 
 1	TextView的打印：
