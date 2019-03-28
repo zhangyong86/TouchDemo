@@ -42,3 +42,7 @@ DOWN执行onUerInteraction，可重写在Activity中，之后调用getWindow()�
 2、可以通过复写onInterceptTouchEvent(ev)方法，拦截子View的事件（即return true），把事件交给自己处理，则会执行自己对应的onTouchEvent方法
 
 3、子View可以通过调用getParent().requestDisallowInterceptTouchEvent(true);  阻止ViewGroup对其MOVE或者UP事件进行拦截；
+
+参考文档：
+https://www.cnblogs.com/wytiger/p/5235393.html
+https://blog.csdn.net/lmj623565791/article/details/39102591
